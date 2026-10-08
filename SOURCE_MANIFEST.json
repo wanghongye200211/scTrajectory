@@ -1,0 +1,36 @@
+{
+  "scope": "Byte-identical existing physics; new portable stage orchestration around it",
+  "upstream_reference": "https://github.com/BasisResearch/wasserstein-residuals",
+  "files": [
+    {
+      "bundled": "src/stitching_reconstruction/physics/distribution_metrics.py",
+      "origin_relative_to_line": "code/ustitch/src/distribution_metrics.py",
+      "sha256": "7fe8dc9902a9a71994003d7752b1bfe37d3aed8e093818f90b61c72e16f67536",
+      "byte_identical": true
+    },
+    {
+      "bundled": "src/stitching_reconstruction/physics/experimental.py",
+      "origin_relative_to_line": "code/ustitch/src/experimental.py",
+      "sha256": "b59d5e7be593d4aa7166d493b6803ea8725284768e13de564a2032a85c26c0be",
+      "byte_identical": true
+    },
+    {
+      "bundled": "src/stitching_reconstruction/physics/mass_control.py",
+      "origin_relative_to_line": "code/ustitch/src/mass_control.py",
+      "sha256": "f713a1cf3d541e277089951c9484886711b43cb2049e5db1c784b10c6f65ab3b",
+      "byte_identical": true
+    },
+    {
+      "bundled": "src/stitching_reconstruction/physics/model.py",
+      "origin_relative_to_line": "code/ustitch/src/model.py",
+      "sha256": "749dc243780ebabb485a2de650f7d7336162f7b3e0c26adaf6cfc10686eaac8c",
+      "byte_identical": true
+    },
+    {
+      "bundled": "src/stitching_reconstruction/physics/shape_losses.py",
+      "origin_relative_to_line": "code/ustitch/src/shape_losses.py",
+      "sha256": "21e8112cd3bed93ccccad41cc22d4e51552c4409e764e9df7a2a9352065c1d38",
+      "byte_identical": true
+    }
+  ]
+}

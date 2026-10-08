@@ -1,0 +1,5 @@
+{
+  "checkpoint_every": 10,
+  "interval_batch": 4,
+  "data_batch_per_time": 16
+}

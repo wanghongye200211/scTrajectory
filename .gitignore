@@ -1,0 +1,34 @@
+# Python/build environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Runtime output, model weights and cell-level arrays
+outputs/
+models/
+data/
+logs/
+results/
+*.pt
+*.pth
+*.npz
+*.npy
+*.h5ad
+*.loom
+*.h5
+
+# Machine-local files and credentials
+.DS_Store
+._*
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+known_hosts*

@@ -1,0 +1,7 @@
+# Tested: Python 3.9.25, macOS arm64. Core training/integration uses MPS float32.
+torch==2.8.0
+numpy==2.0.2
+scipy==1.13.1
+matplotlib==3.9.4
+geomloss==0.2.3
+POT==0.9.6.post1

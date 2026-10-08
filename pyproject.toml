@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sctrajectory"
+version = "1.0.0"
+description = "Single-cell trajectory reconstruction with population transport and local growth"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "torch==2.8.0",
+  "numpy==2.0.2",
+  "scipy==1.13.1",
+  "matplotlib==3.9.4",
+  "geomloss==0.2.3",
+  "POT==0.9.6.post1",
+]
+
+[project.urls]
+Repository = "https://github.com/wanghongye200211/scTrajectory"
+
+[project.scripts]
+sctrajectory = "stitching_reconstruction.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
